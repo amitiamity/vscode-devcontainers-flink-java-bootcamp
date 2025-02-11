@@ -1,6 +1,6 @@
-# vscode-devcontainers-flink-java-bootcamp
+# Ready-to-Use DevContainer for Apache Flink Development
 
-This project includes a pre-configured DevContainer for Flink development, which allows you to quickly spin up a consistent development environment without needing to install Flink and other dependencies manually on your local machine. This is especially helpful for consistent workflows and collaboration across different developers. Once the DevContainer is initialized and Flink is running inside the container, you can access the Flink Web UI (http://localhost:8081) to monitor the status and progress of your job.
+This project includes a pre-configured DevContainer for Flink development, which allows you to quickly spin up a consistent development environment without needing to install Apache Flink and other dependencies manually on your local machine. This is especially helpful for consistent workflows and collaboration across different developers. Once the DevContainer is initialized and Flink is running inside the container, you can access the Flink Web UI (http://localhost:8081) to monitor the status and progress of your job.
 
 ## Project Structure
 ```
