@@ -3,6 +3,7 @@
 This project includes a pre-configured DevContainer for Flink development, which allows you to quickly spin up a consistent development environment without needing to install Flink and other dependencies manually on your local machine. This is especially helpful for consistent workflows and collaboration across different developers. Once the DevContainer is initialized and Flink is running inside the container, you can access the Flink Web UI (http://localhost:8081) to monitor the status and progress of your job.
 
 ## Project Structure
+```
 .devcontainer/          # Contains Docker container configuration for development environments
   ├── devcontainer.json # Development container configuration
   ├── Dockerfile        # Dockerfile for building the development environment container
@@ -20,8 +21,7 @@ settings.gradle         # Gradle settings configuration file
 src/                    # Source files
   ├── main/             # Main source code
   ├── test/             # Test source code
-
-
+```
 ## Getting Started
 
 ### Prerequisites
