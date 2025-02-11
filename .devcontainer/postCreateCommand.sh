@@ -13,3 +13,6 @@ if [ ! -f "build.gradle" ]; then
 fi
 
 echo "Dev Container setup complete!"
+
+echo "Running Flink Cluster"
+bash .devcontainer/start_flink_cluster.sh

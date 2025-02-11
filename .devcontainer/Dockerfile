@@ -44,6 +44,3 @@ RUN chmod +x $FLINK_HOME/bin/*.sh
 
 # Switch to vscode user
 USER vscode
-
-# Start Flink Cluster & Keep Container Running
-CMD ["/bin/bash", "-c", "$FLINK_HOME/bin/start-cluster.sh && tail -f /dev/null"]
